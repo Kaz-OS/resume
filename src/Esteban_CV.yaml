@@ -9,8 +9,6 @@ cv:
     - network: GitHub
       username: Kaz-OS
   sections:
-    # profil:
-    #   - Passionné par l'innovation technologique et le développement logiciel, je m'épanouis à explorer de nouveaux langages, frameworks et méthodologies. Curieux et rigoureux, j'aime concevoir des solutions élégantes à des problématiques complexes.
     éducation:
       - institution: Campus La Châtaigneraie
         area: SLAM
