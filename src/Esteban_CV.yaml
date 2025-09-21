@@ -1,13 +1,13 @@
 cv:
-  name: Pierre Houllière
-  email: contact@houlliere.com
-  phone: +33-6-11-77-62-00
-  website: https://houlliere.com
+  name: Esteban Rattier
+  email: rattier.esteban.pro@gmail.com
+  phone: +33-6-11-23-73-82
+  website: https://erattier.vercel.app
   social_networks:
     - network: LinkedIn
-      username: pierrehoulliere
+      username: estebanrattier
     - network: GitHub
-      username: wiizzl
+      username: Kaz-OS
   sections:
     # profil:
     #   - Passionné par l'innovation technologique et le développement logiciel, je m'épanouis à explorer de nouveaux langages, frameworks et méthodologies. Curieux et rigoureux, j'aime concevoir des solutions élégantes à des problématiques complexes.
@@ -18,62 +18,50 @@ cv:
         start_date: 2024-09
         end_date: 2026-07
         location: Le Mesnil-Esnard
-        highlights:
-          - Délégué de classe
-          - Création de travaux pratiques pour le cours de Développement de services informatiques
-          - "Développement de l'application de vote du concours d'éloquence du campus"
-      - institution: Lycée Galilée
-        area: Maths. et Sciences de l'Ingénieur
-        degree: Bac général
+        summary: Formation orientée vers le développement d’applications et la gestion de bases de données, avec une spécialisation en conception, programmation et maintenance de solutions logicielles.
+      - institution: Campus La Châtaigneraie
+        area: SN
+        degree: Bac professionnelle
         start_date: 2021-09
         end_date: 2024-07
-        location: Franqueville-St-Pierre
-        summary:
-        highlights:
-          - Obtention de la mention Bien
-          - "Lauréat aux Olympiades de Sciences de l'Ingénieur 2024 (Normandie)"
-          - "Développement d'une plateforme de révision pour les élèves de la spécialité S.I."
+        location: Le Mesnil-Esnard
+        summary: Formation axée sur les infrastructures informatiques, réseaux et systèmes numériques, avec mise en pratique à travers des projets techniques et des stages en entreprise.
+      - institution: Collège Henry Laugier
+        area: DNB
+        start_date: 2017-09
+        end_date: 2021-07
+        location: Forcalquier
     expérience:
-      - company: "[laine & maille](https://laine-maille.fr)"
-        position: Développeur Full Stack
-        start_date: 2025-01
-        location: À distance
-        summary: Développement et maintenance du site e-commerce.
-      - company: "[WorldSkills France](https://worldskills-france.org/editions/competition-nationale-des-metiers-2025-48e-edition)"
-        position: Compétiteur
-        date: 2025-10
-        location: Marseille
-        summary: Participation aux finales nationales de la compétition WorldSkills dans la catégorie Web Technologies.
-      - company: "[Overspeed](https://overspeed.fr)"
-        position: Développeur Full Stack
-        date: 2025-08
-        location: Rouen
-        summary: Rappelé pour continuer le travail démarré lors de mon stage.
-        highlights:
-          - Finalisation du micro-CMS de l'entreprise
-          - Préparation au déploiement en production
-      - company: "[FOLDING-ART](https://folding-art.fr)"
-        position: Développeur Full Stack
-        start_date: 2024-07
-        end_date: 2025-08
-        location: À distance
-        summary: Développement et maintenance du site e-commerce.
-      - company: "[Overspeed](https://overspeed.fr)"
-        position: Stagiaire Développeur Full Stack
+      - company: "DI-Eureka"
+        position: Développeur Stagiaire
         start_date: 2025-05
         end_date: 2025-06
-        location: Rouen
-        summary: Stage de première année de BTS SIO.
-        highlights:
-          - Développement d'un micro-CMS avec Next.js pour gérer le contenu des appareils de la gamme l'Aura des Villes
-      - company: "[WorldSkills Normandie](https://parcours-metier.normandie.fr/orientation/agence/la-48e-competition-worldskills-2024-2026)"
-        position: Compétiteur
-        date: 2024-11
-        location: Caen
-        summary: Obtention de la médaille d'or aux sélections régionales normandes pour la compétition WorldSkills
-        highlights:
-          - Sélectionné comme compétiteur dans l'équipe Normande pour la catégorie Web Technologies lors des finales nationales à Marseille en Octobre 2025
-          - Préparation physique, mentale et technique tout au long de l'année avec des coachs
+        location: hybride
+        summary: Développement d'un site de traduction.
+      - company: "GORON ASSI"
+        position: Technicien stagiaire
+        start_date: 2024-03
+        end_date: 2024-04
+        location: Saint-Étienne-du-Rouvray
+        summary: Gestion de réseaux, développement web.
+      - company: "DSEM"
+        position: Technicien stagiaire
+        start_date: 2023-11
+        end_date: 2023-12
+        location: Saint-Étienne-du-Rouvray
+        summary: Maintenance d’équipement éléctronique.
+      - company: "PC Solution 76"
+        position: Développeur Front-end stagiaire
+        start_date: 2023-01
+        end_date: 2023-03
+        location: Maromme
+        summary: Développement et maintenance d'un site vitrine'.
+      - company: "Sery OUEST"
+        position: Stagiaire en Imprimerie numérique
+        start_date: 2022-05
+        end_date: 2022-07
+        location: Le-Mesnil-Esnard
+        summary: Stage de Seconde
     # projets:
     #   - name: "[CV dynamique](https://github.com/wiizzl/resume)"
     #     date: 2025-07
@@ -87,19 +75,16 @@ cv:
     #     summary: Application mobile permettant de contrôler un robot sportif analysant les mouvements avec un modèle d'IA.
     compétences:
       - label: Langages
-        details: JavaScript, TypeScript, PHP, Python, C#, Rust, HTML, CSS
+        details: JavaScript, TypeScript, PHP, Python, C#, HTML, CSS
       - label: Frameworks & Technologies
-        details: React.js (Next.js), React Native (Expo), Node.js, Bun, Laravel, Symfony, .NET, Tauri, Docker, Podman, Kubernetes, Pytorch
-      - label: Librairies
-        details: Sass, TailwindCSS, UnoCSS, Prisma, Drizzle, Entity Framework
+        details: Astro, Elysia ,Node.js, Bun, Symfony, .NET, Docker
       - label: Outils & DevOps
-        details: Git, GitHub Actions, Jenkins, Linux (utilisation quotidienne de Fedora)
+        details: Git, GitHub Actions, Linux (utilisation quotidienne de Fedora)
       - label: Bases de données
-        details: SQL, Transact-SQL, MySQL, PostgreSQL, Redis, MongoDB
+        details: SQL, Transact-SQL, SQL-Server, MySQL
     langues:
-      - bullet: Français (natif)
-      - bullet: Anglais (B2)
-      - bullet: Allemand (A2)
+      - bullet: Français (Natal)
+      - bullet: Anglais (B1)
 design:
   theme: engineeringresumes
   page:
@@ -147,7 +132,6 @@ design:
     line_thickness: 0.5pt
     vertical_space_above: 0.55cm
     vertical_space_below: 0.3cm
-    line_type: with-full-line
   entries:
     date_and_location_width: 4.15cm
     left_and_right_margin: 0cm
