@@ -80,6 +80,9 @@ cv:
         details: Git, GitHub Actions, Linux (utilisation quotidienne de Fedora)
       - label: Bases de données
         details: SQL, Transact-SQL, SQL-Server, MySQL
+    Workflow:
+      - label: Setup
+        details: ArchLinux, Hyprland, Foot(Terminal), VScode, Rider
     langues:
       - bullet: Français (Natal)
       - bullet: Anglais (B1)
