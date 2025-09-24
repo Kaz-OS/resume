@@ -81,8 +81,8 @@ cv:
       - label: Bases de données
         details: SQL, Transact-SQL, SQL-Server, MySQL
     Workflow:
-      - label: Setup
-        details: ArchLinux, Hyprland, Foot(Terminal), VScode, Rider
+      - label: Workflow
+        details: Arch Linux, Hyprland, Foot (Terminal), VS Code, Rider
     langues:
       - bullet: Français (Natal)
       - bullet: Anglais (B1)
