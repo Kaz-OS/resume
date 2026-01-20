@@ -19,7 +19,7 @@ cv:
         summary: Formation orientée vers le développement d’applications et la gestion de bases de données, avec une spécialisation en conception, programmation et maintenance de solutions logicielles.
       - institution: Campus La Châtaigneraie
         area: SN
-        degree: Bac professionnelle
+        degree: Bac professionnel
         start_date: 2021-09
         end_date: 2024-07
         location: Le Mesnil-Esnard
@@ -30,6 +30,12 @@ cv:
         end_date: 2021-07
         location: Forcalquier
     expérience:
+      - company: "DI-Eureka"
+        position: Développeur Stagiaire
+        start_date: 2026-01
+        end_date: 2026-02
+        location: hybride
+        summary: Développement d'un e-commerce.
       - company: "DI-Eureka"
         position: Développeur Stagiaire
         start_date: 2025-05
@@ -47,13 +53,13 @@ cv:
         start_date: 2023-11
         end_date: 2023-12
         location: Saint-Étienne-du-Rouvray
-        summary: Maintenance d’équipement éléctronique.
+        summary: Maintenance d'équipement électronique.
       - company: "PC Solution 76"
         position: Développeur Front-end stagiaire
         start_date: 2023-01
         end_date: 2023-03
         location: Maromme
-        summary: Développement et maintenance d'un site vitrine'.
+        summary: Développement et maintenance d'un site vitrine.
       - company: "Sery OUEST"
         position: Stagiaire en Imprimerie numérique
         start_date: 2022-05
@@ -75,16 +81,16 @@ cv:
       - label: Langages
         details: JavaScript, TypeScript, PHP, Python, C#, HTML, CSS
       - label: Frameworks & Technologies
-        details: Astro, Elysia ,Node.js, Bun, Symfony, .NET, Docker
+        details: Astro, Elysia, Node.js, Bun, Symfony, .NET, Docker
       - label: Outils & DevOps
-        details: Git, GitHub Actions, Linux (utilisation quotidienne de Fedora)
+        details: Git, GitHub Actions, Linux (utilisation quotidienne d'Omarchy)
       - label: Bases de données
         details: SQL, Transact-SQL, SQL-Server, MySQL
     Workflow:
       - label: Workflow
         details: Arch Linux, Hyprland, Foot (Terminal), VS Code, Rider
     langues:
-      - bullet: Français (Natal)
+      - bullet: Français (Natif)
       - bullet: Anglais (B1)
 design:
   theme: engineeringresumes
