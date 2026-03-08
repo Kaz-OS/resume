@@ -30,5 +30,5 @@ uv sync
 3. Render the CV
 
 ```
-rendercv render --watch src/Pierre_CV.yaml
+rendercv render --watch src/Esteban_CV.yaml
 ```

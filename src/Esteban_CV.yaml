@@ -9,7 +9,14 @@ cv:
     - network: GitHub
       username: Kaz-OS
   sections:
-    éducation:
+    Formations:
+      - institution: CESI
+        area: Concepteur Développeur d’Applications
+        degree: Bachelor
+        start_date: 2026-10
+        end_date: 2027-07
+        location: Saint-Étienne-du-Rouvray
+        summary: Formation complète en ingénierie informatique couvrant la conception, le développement, le déploiement sécurisé et le management de projets logiciels.
       - institution: Campus La Châtaigneraie
         area: SLAM
         degree: BTS SIO
@@ -24,30 +31,25 @@ cv:
         end_date: 2024-07
         location: Le Mesnil-Esnard
         summary: Formation axée sur les infrastructures informatiques, réseaux et systèmes numériques, avec mise en pratique à travers des projets techniques et des stages en entreprise.
-      - institution: Collège Henry Laugier
-        area: DNB
-        start_date: 2017-09
-        end_date: 2021-07
-        location: Forcalquier
-    expérience:
+    Expériences:
       - company: "DI-Eureka"
         position: Développeur Stagiaire
         start_date: 2026-01
         end_date: 2026-02
         location: hybride
-        summary: Développement d'un e-commerce.
+        summary: Développement d'un e-commerce. (Symfony, React, MySQL)
       - company: "DI-Eureka"
         position: Développeur Stagiaire
         start_date: 2025-05
         end_date: 2025-06
         location: hybride
-        summary: Développement d'un site de traduction.
+        summary: Développement d'un site vitrine de traduction. (Astro)
       - company: "GORON ASSI"
         position: Technicien stagiaire
         start_date: 2024-03
         end_date: 2024-04
         location: Saint-Étienne-du-Rouvray
-        summary: Gestion de réseaux, développement web.
+        summary: Gestion de réseaux, développement web. (PHP)
       - company: "DSEM"
         position: Technicien stagiaire
         start_date: 2023-11
@@ -55,7 +57,7 @@ cv:
         location: Saint-Étienne-du-Rouvray
         summary: Maintenance d'équipement électronique.
       - company: "PC Solution 76"
-        position: Développeur Front-end stagiaire
+        position: Développeur Front-end stagiaire (HTML, CSS)
         start_date: 2023-01
         end_date: 2023-03
         location: Maromme
@@ -88,7 +90,7 @@ cv:
         details: SQL, Transact-SQL, SQL-Server, MySQL
     Workflow:
       - label: Workflow
-        details: Arch Linux, Hyprland, Foot (Terminal), VS Code, Rider
+        details: Omarchy Linux, Hyprland, Alacritty (Terminal), VS Code, Rider
     langues:
       - bullet: Français (Natif)
       - bullet: Anglais (B1)
