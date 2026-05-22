@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Esteban Rattier
   email: rattier.esteban.pro@gmail.com
@@ -11,7 +12,7 @@ cv:
   sections:
     Formations:
       - institution: CESI
-        area: Concepteur Développeur d’Applications
+        area: Développeur d’Applications
         degree: Bachelor
         start_date: 2026-10
         end_date: 2027-07
@@ -19,27 +20,31 @@ cv:
         summary: Formation complète en ingénierie informatique couvrant la conception, le développement, le déploiement sécurisé et le management de projets logiciels.
       - institution: Campus La Châtaigneraie
         area: SLAM
-        degree: BTS SIO
+        degree: BTS
         start_date: 2024-09
         end_date: 2026-07
         location: Le Mesnil-Esnard
         summary: Formation orientée vers le développement d’applications et la gestion de bases de données, avec une spécialisation en conception, programmation et maintenance de solutions logicielles.
       - institution: Campus La Châtaigneraie
         area: SN
-        degree: Bac professionnel
+        degree: Bac
         start_date: 2021-09
         end_date: 2024-07
         location: Le Mesnil-Esnard
         summary: Formation axée sur les infrastructures informatiques, réseaux et systèmes numériques, avec mise en pratique à travers des projets techniques et des stages en entreprise.
     Expériences:
+      - company: "WorldSkills Normandie"
+        position: Compétiteur
+        date: 2026-11
+        summary: "[Entraînement pour les sélections régionales](https://github.com/Kaz-OS/skill17-training)"
       - company: "DI-Eureka"
-        position: Développeur Stagiaire
+        position: Développeur stagiaire
         start_date: 2026-01
         end_date: 2026-02
         location: hybride
         summary: Développement d'un e-commerce. (Symfony, React, MySQL)
       - company: "DI-Eureka"
-        position: Développeur Stagiaire
+        position: Développeur stagiaire
         start_date: 2025-05
         end_date: 2025-06
         location: hybride
@@ -57,167 +62,184 @@ cv:
         location: Saint-Étienne-du-Rouvray
         summary: Maintenance d'équipement électronique.
       - company: "PC Solution 76"
-        position: Développeur Front-end stagiaire (HTML, CSS)
+        position: Développeur front-end stagiaire (HTML, CSS)
         start_date: 2023-01
         end_date: 2023-03
         location: Maromme
         summary: Développement et maintenance d'un site vitrine.
       - company: "Sery OUEST"
-        position: Stagiaire en Imprimerie numérique
+        position: Stagiaire en imprimerie numérique
         start_date: 2022-05
         end_date: 2022-07
-        location: Le-Mesnil-Esnard
-        summary: Stage de Seconde
-    # projets:
-    #   - name: "[CV dynamique](https://github.com/wiizzl/resume)"
-    #     date: 2025-07
-    #     summary: Génération de ce CV de manière dynamique grâce à la CI/CD de GitHub Actions.
-    #   - name: "[Nobel Explorer](https://nobel-explorer-eight.vercel.app)"
-    #     date: 2025-04
-    #     summary: Application web permettant d'explorer les prix nobels et les lauréats avec des filtres de recherche avancés.
-    #   - name: "[B-Pump](https://play.google.com/store/apps/details?id=com.wiizz.bpumpapp)"
-    #     start_date: 2024-01
-    #     end_date: 2024-05
-    #     summary: Application mobile permettant de contrôler un robot sportif analysant les mouvements avec un modèle d'IA.
+        location: Le Mesnil-Esnard
+        summary: Stage de seconde
+    projets:
+      - name: "[Portfolio BTS](https://estebanrattier.vercel.app/)"
+        date: 2025-07
+        summary: Création d'un site statique regroupant ma veille technologique et mes réalisations de BTS.
     compétences:
       - label: Langages
         details: JavaScript, TypeScript, PHP, Python, C#, HTML, CSS
       - label: Frameworks & Technologies
-        details: Astro, Elysia, Node.js, Bun, Symfony, .NET, Docker
+        details: Astro, Elysia, Node.js, Bun, Symfony, .NET, Docker, TailwindCSS
       - label: Outils & DevOps
         details: Git, GitHub Actions, Linux (utilisation quotidienne d'Omarchy)
       - label: Bases de données
         details: SQL, Transact-SQL, SQL-Server, MySQL
-    Workflow:
       - label: Workflow
-        details: Omarchy Linux, Hyprland, Alacritty (Terminal), VS Code, Rider
+        details: Arch Linux, Hyprland, Alacritty (Terminal), VSCode, Rider
     langues:
       - bullet: Français (Natif)
-      - bullet: Anglais (B1)
+      - bullet: Anglais (B2)
 design:
-  theme: engineeringresumes
+  theme: harvard
   page:
     size: us-letter
-    top_margin: 1cm
-    bottom_margin: 1cm
-    left_margin: 2cm
-    right_margin: 2cm
-    show_page_numbering: false
-    show_last_updated_date: true
+    top_margin: 0.5in
+    bottom_margin: 0.5in
+    left_margin: 0.5in
+    right_margin: 0.5in
+    show_footer: false
+    show_top_note: false
   colors:
-    text: rgb(0, 0, 0)
+    body: rgb(0, 0, 0)
     name: rgb(0, 0, 0)
+    headline: rgb(0, 0, 0)
     connections: rgb(0, 0, 0)
     section_titles: rgb(0, 0, 0)
     links: rgb(0, 0, 0)
-    last_updated_date_and_page_numbering: rgb(128, 128, 128)
-  text:
-    font_family: XCharter
-    font_size: 10pt
-    leading: 0.6em
+    footer: rgb(128, 128, 128)
+    top_note: rgb(128, 128, 128)
+  typography:
+    line_spacing: 0.6em
     alignment: justified
     date_and_location_column_alignment: right
+    font_family:
+      body: XCharter
+      name: XCharter
+      headline: XCharter
+      connections: XCharter
+      section_titles: XCharter
+    font_size:
+      body: 10pt
+      name: 25pt
+      headline: 10pt
+      connections: 9pt
+      section_titles: 1.3em
+    small_caps:
+      name: false
+      headline: false
+      connections: false
+      section_titles: false
+    bold:
+      name: true
+      headline: false
+      connections: false
+      section_titles: true
   links:
     underline: false
-    use_external_link_icon: true
+    show_external_link_icon: true
   header:
-    name_font_family: XCharter
-    name_font_size: 25pt
-    name_bold: false
-    photo_width: 3.5cm
-    vertical_space_between_name_and_connections: 0.8cm
-    vertical_space_between_connections_and_first_section: 0.8cm
-    horizontal_space_between_connections: 0.5cm
-    connections_font_family: XCharter
-    separator_between_connections: "|"
-    use_icons_for_connections: true
     alignment: center
+    photo_width: 3.5cm
+    photo_position: left
+    photo_space_left: 0.4cm
+    photo_space_right: 0.4cm
+    space_below_name: 0.5cm
+    space_below_headline: 0.5cm
+    space_below_connections: 0.5cm
+    connections:
+      phone_number_format: national
+      hyperlink: true
+      show_icons: true
+      display_urls_instead_of_usernames: false
+      separator: •
+      space_between_connections: 0.4cm
   section_titles:
-    type: with-full-line
-    font_family: XCharter
-    font_size: 1.2em
-    bold: true
-    small_caps: false
+    type: centered_with_centered_partial_line
     line_thickness: 0.5pt
-    vertical_space_above: 0.55cm
-    vertical_space_below: 0.3cm
+    space_above: 0.8cm
+    space_below: 0.3cm
+  sections:
+    allow_page_break: true
+    space_between_regular_entries: 1em
+    space_between_text_based_entries: 0.3em
+    show_time_spans_in: []
   entries:
     date_and_location_width: 4.15cm
-    left_and_right_margin: 0cm
-    horizontal_space_between_columns: 0.1cm
-    vertical_space_between_entries: 0.4cm
-    allow_page_break_in_sections: true
-    allow_page_break_in_entries: true
+    side_space: 0.2cm
+    space_between_columns: 0.1cm
+    allow_page_break: false
     short_second_row: false
-    show_time_spans_in: []
-  highlights:
-    bullet: •
-    top_margin: 0.25cm
-    left_margin: 0cm
-    vertical_space_between_highlights: 0.19cm
-    horizontal_space_between_bullet_and_highlight: 0.3em
-    summary_left_margin: 0cm
-  entry_types:
+    degree_width: 1.5cm
+    summary:
+      space_above: 0cm
+      space_left: 0cm
+    highlights:
+      bullet: •
+      nested_bullet: •
+      space_left: 0.15cm
+      space_above: 0cm
+      space_between_items: 0cm
+      space_between_bullet_and_text: 0.5em
+  templates:
+    footer: "*NAME -- PAGE_NUMBER/TOTAL_PAGES*"
+    top_note: "*LAST_UPDATED CURRENT_DATE*"
+    single_date: MONTH_ABBREVIATION YEAR
+    date_range: START_DATE – END_DATE
+    time_span: ""
     one_line_entry:
-      template: "**LABEL:** DETAILS"
+      main_column: "**LABEL:** DETAILS"
     education_entry:
-      main_column_first_row_template: "**INSTITUTION**, DEGREE (AREA) -- LOCATION"
-      degree_column_template:
-      degree_column_width: 1cm
-      main_column_second_row_template: |-
+      main_column: |-
+        **INSTITUTION**, DEGREE_WITH_AREA -- LOCATION
         SUMMARY
         HIGHLIGHTS
-      date_and_location_column_template: DATE
+      degree_column: "**DEGREE**"
+      date_and_location_column: DATE
     normal_entry:
-      main_column_first_row_template: "**NAME** -- **LOCATION**"
-      main_column_second_row_template: |-
+      main_column: |-
+        **NAME** -- **LOCATION**
         SUMMARY
         HIGHLIGHTS
-      date_and_location_column_template: DATE
+      date_and_location_column: DATE
     experience_entry:
-      main_column_first_row_template: "**POSITION**, COMPANY -- LOCATION"
-      main_column_second_row_template: |-
+      main_column: |-
+        **COMPANY**, POSITION -- LOCATION
         SUMMARY
         HIGHLIGHTS
-      date_and_location_column_template: DATE
+      date_and_location_column: DATE
     publication_entry:
-      main_column_first_row_template: "**TITLE**"
-      main_column_second_row_template: |-
+      main_column: |-
+        **TITLE**
+        SUMMARY
         AUTHORS
         URL (JOURNAL)
-      main_column_second_row_without_journal_template: |-
-        AUTHORS
-        URL
-      main_column_second_row_without_url_template: |-
-        AUTHORS
-        JOURNAL
-      date_and_location_column_template: DATE
+      date_and_location_column: DATE
 locale:
-  language: fr
-  phone_number_format: national
-  page_numbering_template: NAME - Page PAGE_NUMBER sur TOTAL_PAGES
-  last_updated_date_template: Mis à jour en TODAY
-  date_template: MONTH_ABBREVIATION YEAR
+  language: french
+  last_updated: Dernière mise à jour
   month: mois
   months: mois
-  year: année
-  years: années
-  present: Présent
-  to: –
-  abbreviations_for_months:
-    - Janv.
-    - Févr.
-    - Mars
-    - Avr.
+  year: an
+  years: ans
+  present: présent
+  phrases:
+    degree_with_area: DEGREE en AREA
+  month_abbreviations:
+    - Jan
+    - Fév
+    - Mar
+    - Avr
     - Mai
     - Juin
-    - Juil.
-    - Août
-    - Sept.
-    - Oct.
-    - Nov.
-    - Déc.
-  full_names_of_months:
+    - Juil
+    - Aoû
+    - Sep
+    - Oct
+    - Nov
+    - Déc
+  month_names:
     - Janvier
     - Février
     - Mars
@@ -230,6 +252,21 @@ locale:
     - Octobre
     - Novembre
     - Décembre
-rendercv_settings:
+settings:
+  current_date: today
   render_command:
+    output_folder: rendercv_output
+    design:
+    locale:
+    typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
+    html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
+    png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true
   bold_keywords: []
+  pdf_title: NAME - CV

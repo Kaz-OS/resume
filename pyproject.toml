@@ -1,9 +1,9 @@
 [project]
 name = "resume"
-version = "1.0.0"
-description = "Pierre's resume"
+version = "0.0.0"
+description = "Esteban's resume"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
-  "rendercv[full]>=2.2",
+    "rendercv[full]>=2.8",
 ]

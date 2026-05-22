@@ -1,7 +1,7 @@
 # resume
 
-![Build workflow status](https://github.com/wiizzl/resume/actions/workflows/build.yml/badge.svg)
-![Release workflow status](https://github.com/wiizzl/resume/actions/workflows/release.yml/badge.svg)
+![Build workflow status](https://github.com/Kaz-OS/resume/actions/workflows/build.yaml/badge.svg)
+![Release workflow status](https://github.com/Kaz-OS/resume/actions/workflows/release.yaml/badge.svg)
 
 > This resume was generated using [RenderCV](https://rendercv.com)
 
@@ -11,10 +11,10 @@
 
 ## How to run
 
-1. Create virtual environment using python 3.13 and enable it
+1. Create virtual environment and enable it
 
 ```
-uv venv --python 3.13
+uv venv
 ```
 
 ```
