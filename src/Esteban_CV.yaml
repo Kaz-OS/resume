@@ -97,7 +97,7 @@ cv:
 design:
   theme: harvard
   page:
-    size: us-letter
+    size: a4
     top_margin: 0.5in
     bottom_margin: 0.5in
     left_margin: 0.5in
