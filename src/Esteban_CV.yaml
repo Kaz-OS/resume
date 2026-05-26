@@ -77,6 +77,9 @@ cv:
       - name: "[Portfolio BTS](https://estebanrattier.vercel.app/)"
         date: 2025-07
         summary: Création d'un site statique regroupant ma veille technologique et mes réalisations de BTS.
+      - name: "[Real time chat](https://real-time-chat-umber.vercel.app/)"
+        date: 2026-05
+        summary: Création d'un chat en temps réel (WebSocket, Elysia, React).
     compétences:
       - label: Langages
         details: JavaScript, TypeScript, PHP, Python, C#, HTML, CSS
