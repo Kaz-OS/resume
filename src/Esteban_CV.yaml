@@ -1,107 +1,136 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Esteban Rattier
+  headline: Alternance pour septembre 2026 -- Développeur Web -- 1 an
   email: rattier.esteban.pro@gmail.com
   phone: +33-6-11-23-73-82
-  website: https://erattier.vercel.app
+  photo: pfp.png
+  custom_connections:
+    - fontawesome_icon: cake
+      placeholder: 19 ans
+      url:
   social_networks:
     - network: LinkedIn
       username: estebanrattier
     - network: GitHub
       username: Kaz-OS
   sections:
-    Formations:
-      - institution: CESI
-        area: Développeur d’Applications
-        degree: Bachelor
-        start_date: 2026-10
-        end_date: 2027-07
-        location: Saint-Étienne-du-Rouvray
-        summary: Formation complète en ingénierie informatique couvrant la conception, le développement, le déploiement sécurisé et le management de projets logiciels.
-      - institution: Campus La Châtaigneraie
-        area: SLAM
-        degree: BTS
-        start_date: 2024-09
-        end_date: 2026-07
-        location: Le Mesnil-Esnard
-        summary: Formation orientée vers le développement d’applications et la gestion de bases de données, avec une spécialisation en conception, programmation et maintenance de solutions logicielles.
-      - institution: Campus La Châtaigneraie
-        area: SN
-        degree: Bac
-        start_date: 2021-09
-        end_date: 2024-07
-        location: Le Mesnil-Esnard
-        summary: Formation axée sur les infrastructures informatiques, réseaux et systèmes numériques, avec mise en pratique à travers des projets techniques et des stages en entreprise.
     Expériences:
-      - company: "WorldSkills Normandie"
-        position: Compétiteur
-        date: 2026-11
-        summary: "[Entraînement pour les sélections régionales](https://github.com/Kaz-OS/skill17-training)"
-      - company: "DI-Eureka"
-        position: Développeur stagiaire
+      - company: "[DI-Eureka](https://facebook.com/p/Digital-Eurêka-61559038173005)"
+        position: Développeur Web
         start_date: 2026-01
         end_date: 2026-02
-        location: hybride
-        summary: Développement d'un e-commerce. (Symfony, React, MySQL)
-      - company: "DI-Eureka"
-        position: Développeur stagiaire
+        location: Rouen
+        summary: Stage de deuxième années de BTS.
+        technologies: Symfony, React, MySQL
+        highlights:
+          - Developpement d'une plateforme e-commerce international.
+          - Gestion de projet, développement.
+      - company: "[DI-Eureka](https://facebook.com/p/Digital-Eurêka-61559038173005)"
+        position: Développeur Web
         start_date: 2025-05
         end_date: 2025-06
-        location: hybride
-        summary: Développement d'un site vitrine de traduction. (Astro)
-      - company: "GORON ASSI"
-        position: Technicien stagiaire
+        location: Rouen
+        summary: Stage de première années de BTS.
+        technologies: Astro, TypeScript
+        highlights:
+          - Developpement d'un site vitrine pour un traducteur.
+          - Design d'interface érgonomique pour maximiser la convertion.
+      - company: "[GORON Systèmes](https://goron-systemes.fr)"
+        position: Technicien informatique
         start_date: 2024-03
         end_date: 2024-04
-        location: Saint-Étienne-du-Rouvray
-        summary: Gestion de réseaux, développement web. (PHP)
-      - company: "DSEM"
-        position: Technicien stagiaire
+        location: St-Étienne-du-Rouvray
+        summary: Stage de Terminale.
+        technologies: PHP
+        highlights:
+          - Gestion de resaux.
+          - Développement d'une page d'envoie de mail.
+      - company: "[DSEM](https://rh.laposte.fr/system/files/piece_jointe/Présentation%20de%20la%20dsem-vdef.pdf)"
+        position: Technicien informatique
         start_date: 2023-11
         end_date: 2023-12
-        location: Saint-Étienne-du-Rouvray
-        summary: Maintenance d'équipement électronique.
+        location: St-Étienne-du-Rouvray
+        summary: Stage de Première.
+        highlights:
+          - Maintenance et gestion d'équipement informatique.
       - company: "PC Solution 76"
-        position: Développeur front-end stagiaire (HTML, CSS)
+        position: Développeur Web
         start_date: 2023-01
         end_date: 2023-03
         location: Maromme
-        summary: Développement et maintenance d'un site vitrine.
-      - company: "Sery OUEST"
-        position: Stagiaire en imprimerie numérique
+        summary: Stage de Première.
+      - company: "[Sery Ouest](https://www.sery-ouest.com)"
+        position: Imprimeur numérique
         start_date: 2022-05
         end_date: 2022-07
         location: Le Mesnil-Esnard
-        summary: Stage de seconde
+        summary: Stage de Seconde.
     projets:
+      - name: "[Entraînement WorldSkills](https://github.com/Kaz-OS/skill17-training)"
+        position: Compétiteur
+        start_date: 2026-06
+        summary: Entrainement pour les séléctions régionales pour la plus grande compétition des métiers au monde.
+        technologies: HTML, CSS, JavaScript
+      - name: "[Real time chat](https://github.com/Kaz-OS/real-time-chat)"
+        date: 2026-05
+        summary: Découverte des flux de données via WebSockets pour une messagerie instantanée.
+        technologies: Vite, Elysia, React
       - name: "[Portfolio BTS](https://estebanrattier.vercel.app/)"
         date: 2025-07
-        summary: Création d'un site statique regroupant ma veille technologique et mes réalisations de BTS.
-      - name: "[Real time chat](https://real-time-chat-umber.vercel.app/)"
-        date: 2026-05
-        summary: Création d'un chat en temps réel (WebSocket, Elysia, React).
+        summary: Site statique regroupant ma veille technologique et mes réalisations de BTS.
+        technologies: Astro, TypeScript, MDX
+    Formations:
+      - institution: "[CESI](https://cesi.fr/formation/bachelor-concepteur-trice-developpeur-se-informatique-en-alternance-2498868)"
+        area: Développeur et Concepteur d'Applications
+        degree: Bachelor
+        start_date: 2026
+        end_date: 2027
+        location: Rouen
+        summary: Formation en alternance, 3 semaines en entreprise pour 1 semaine en école.
+      - institution: "[Campus La Châtaigneraie](https://la-chataigneraie.org/bts-service-informatiques-organisations-solutions-logicielles-applications-metiers)"
+        area: Solutions Logicielles et Applications Métiers
+        degree: BTS SIO
+        start_date: 2024
+        end_date: 2026
+        location: Le Mesnil-Esnard
+        summary: Formation orientée vers le développement d'applications et la gestion de bases de données.
+      - institution: "[Campus La Châtaigneraie](https://la-chataigneraie.org/bts-service-informatiques-organisations-solutions-logicielles-applications-metiers)"
+        area: Systèmes Numériques
+        degree: BAC. Pro
+        start_date: 2021
+        end_date: 2024
+        location: Le Mesnil-Esnard
+        summary: Formation axée sur les infrastructures informatiques, réseaux et systèmes numériques.
     compétences:
       - label: Langages
-        details: JavaScript, TypeScript, PHP, Python, C#, HTML, CSS
-      - label: Frameworks & Technologies
-        details: Astro, Elysia, Node.js, Bun, Symfony, .NET, Docker, TailwindCSS
-      - label: Outils & DevOps
-        details: Git, GitHub Actions, Linux (utilisation quotidienne d'Omarchy)
+        details: TypeScript/JavaScript, C# (.NET), Java, Python, PHP, SQL, HTML/CSS
+
+      - label: Technologies Web
+        details: React, TailwindCSS, Node.js, Bun, Elysia, Astro
+
+      - label: Systèmes
+        details: Linux, Docker
+
       - label: Bases de données
-        details: SQL, Transact-SQL, SQL-Server, MySQL
-      - label: Workflow
-        details: Arch Linux, Hyprland, Alacritty (Terminal), VSCode, Rider
+        details: MySQL/MariaDB, SQL Server (T-SQL)
+
+      - label: Modélisation & Conception
+        details: UML, Merise, Agile Scrum, Clean Code, Design Patterns
+
+      - label: Soft Skills
+        details: Communication, Travail en équipe, Résolution de problèmes, Adaptabilité
     langues:
-      - bullet: Français (Natif)
+      - bullet: Espagnol (A2)
       - bullet: Anglais (B2)
 design:
   theme: harvard
   page:
     size: a4
-    top_margin: 0.5in
-    bottom_margin: 0.5in
-    left_margin: 0.5in
-    right_margin: 0.5in
+    top_margin: 0.3in
+    bottom_margin: 0.3in
+    left_margin: 0.3in
+    right_margin: 0.3in
     show_footer: false
     show_top_note: false
   colors:
@@ -114,8 +143,8 @@ design:
     footer: rgb(128, 128, 128)
     top_note: rgb(128, 128, 128)
   typography:
-    line_spacing: 0.6em
-    alignment: justified
+    line_spacing: 0.5em
+    alignment: left
     date_and_location_column_alignment: right
     font_family:
       body: XCharter
@@ -125,8 +154,8 @@ design:
       section_titles: XCharter
     font_size:
       body: 10pt
-      name: 25pt
-      headline: 10pt
+      name: 20pt
+      headline: 12pt
       connections: 9pt
       section_titles: 1.3em
     small_caps:
@@ -135,22 +164,22 @@ design:
       connections: false
       section_titles: false
     bold:
-      name: true
-      headline: false
-      connections: false
+      name: false
+      headline: true
+      connections: true
       section_titles: true
   links:
     underline: false
     show_external_link_icon: true
   header:
-    alignment: center
-    photo_width: 3.5cm
-    photo_position: left
+    alignment: left
+    photo_width: 2cm
+    photo_position: right
     photo_space_left: 0.4cm
-    photo_space_right: 0.4cm
-    space_below_name: 0.5cm
-    space_below_headline: 0.5cm
-    space_below_connections: 0.5cm
+    photo_space_right: 0cm
+    space_below_name: 0.25cm
+    space_below_headline: 0.3cm
+    space_below_connections: 0.3cm
     connections:
       phone_number_format: national
       hyperlink: true
@@ -159,14 +188,14 @@ design:
       separator: •
       space_between_connections: 0.4cm
   section_titles:
-    type: centered_with_centered_partial_line
+    type: with_partial_line
     line_thickness: 0.5pt
-    space_above: 0.8cm
+    space_above: 0.5cm
     space_below: 0.3cm
   sections:
     allow_page_break: true
-    space_between_regular_entries: 1em
-    space_between_text_based_entries: 0.3em
+    space_between_regular_entries: 0.8em
+    space_between_text_based_entries: 0.25em
     show_time_spans_in: []
   entries:
     date_and_location_width: 4.15cm
@@ -195,30 +224,29 @@ design:
       main_column: "**LABEL:** DETAILS"
     education_entry:
       main_column: |-
-        **INSTITUTION**, DEGREE_WITH_AREA -- LOCATION
+        INSTITUTION, DEGREE (AREA)
         SUMMARY
         HIGHLIGHTS
-      degree_column: "**DEGREE**"
-      date_and_location_column: DATE
+      degree_column:
+      date_and_location_column: |-
+        LOCATION
+        DATE
     normal_entry:
       main_column: |-
         **NAME** -- **LOCATION**
         SUMMARY
+        *TECHNOLOGIES*
         HIGHLIGHTS
       date_and_location_column: DATE
     experience_entry:
       main_column: |-
-        **COMPANY**, POSITION -- LOCATION
+        **COMPANY**, POSITION
         SUMMARY
+        *TECHNOLOGIES*
         HIGHLIGHTS
-      date_and_location_column: DATE
-    publication_entry:
-      main_column: |-
-        **TITLE**
-        SUMMARY
-        AUTHORS
-        URL (JOURNAL)
-      date_and_location_column: DATE
+      date_and_location_column: |-
+        LOCATION
+        DATE
 locale:
   language: french
   last_updated: Dernière mise à jour
@@ -226,9 +254,7 @@ locale:
   months: mois
   year: an
   years: ans
-  present: présent
-  phrases:
-    degree_with_area: DEGREE en AREA
+  present: Présent
   month_abbreviations:
     - Jan
     - Fév
