@@ -21,56 +21,56 @@ cv:
         start_date: 2026-01
         end_date: 2026-02
         location: Rouen
-        summary: Stage de deuxième années de BTS.
+        summary: Stage de deuxième année de BTS.
         technologies: Symfony, React, MySQL
         highlights:
-          - Developpement d'une plateforme e-commerce international.
-          - Gestion de projet, développement.
+          - Développé les fonctionnalités e-commerce côté Back-End (panier, gestion stock) en Symfony.
+          - Conçu interfaces front-end responsives avec React pour optimiser l'expérience utilisateur multi-devises.
+          - Implémenté intégration API externes et gestion base de données MySQL pour flux de commandes internationales.
       - company: "[DI-Eureka](https://facebook.com/p/Digital-Eurêka-61559038173005)"
         position: Développeur Web
         start_date: 2025-05
         end_date: 2025-06
         location: Rouen
-        summary: Stage de première années de BTS.
+        summary: Stage de première année de BTS.
         technologies: Astro, TypeScript
         highlights:
-          - Developpement d'un site vitrine pour un traducteur.
-          - Design d'interface érgonomique pour maximiser la convertion.
+          - Développé site vitrine performant avec Astro et TypeScript (Core Web Vitals optimisés).
+          - Conçu interface ergonomique et responsives pour maximiser les conversions (appels, devis).
       - company: "[GORON Systèmes](https://goron-systemes.fr)"
         position: Technicien informatique
         start_date: 2024-03
         end_date: 2024-04
         location: St-Étienne-du-Rouvray
-        summary: Stage de Terminale.
+        summary: Stage de Terminale
         technologies: PHP
         highlights:
-          - Gestion de resaux.
-          - Développement d'une page d'envoie de mail.
+          - Géré et maintenus infrastructures réseaux (diagnostics, dépannage, documentations).
       - company: "[DSEM](https://rh.laposte.fr/system/files/piece_jointe/Présentation%20de%20la%20dsem-vdef.pdf)"
         position: Technicien informatique
         start_date: 2023-11
         end_date: 2023-12
         location: St-Étienne-du-Rouvray
-        summary: Stage de Première.
+        summary: Deuxième stage de Première.
         highlights:
-          - Maintenance et gestion d'équipement informatique.
+          - Effectué diagnostics, maintenance préventive et corrective sur postes de travail.
       - company: "PC Solution 76"
         position: Développeur Web
         start_date: 2023-01
         end_date: 2023-03
         location: Maromme
-        summary: Stage de Première.
+        summary: Premier stage de Première.
       - company: "[Sery Ouest](https://www.sery-ouest.com)"
         position: Imprimeur numérique
         start_date: 2022-05
         end_date: 2022-07
         location: Le Mesnil-Esnard
-        summary: Stage de Seconde.
+        summary: Stage de Seconde
     projets:
       - name: "[Entraînement WorldSkills](https://github.com/Kaz-OS/skill17-training)"
         position: Compétiteur
         start_date: 2026-06
-        summary: Entrainement pour les séléctions régionales pour la plus grande compétition des métiers au monde.
+        summary: Entraînement pour les sélections régionales pour la plus grande compétition des métiers au monde.
         technologies: HTML, CSS, JavaScript
       - name: "[Real time chat](https://github.com/Kaz-OS/real-time-chat)"
         date: 2026-05
@@ -119,7 +119,7 @@ cv:
         details: UML, Merise, Agile Scrum, Clean Code, Design Patterns
 
       - label: Soft Skills
-        details: Communication, Travail en équipe, Résolution de problèmes, Adaptabilité
+        details: Travail en équipe, Résolution de problèmes, Communication, Adaptabilité
     langues:
       - bullet: Espagnol (A2)
       - bullet: Anglais (B2)
@@ -143,7 +143,7 @@ design:
     footer: rgb(128, 128, 128)
     top_note: rgb(128, 128, 128)
   typography:
-    line_spacing: 0.5em
+    line_spacing: 0.465em
     alignment: left
     date_and_location_column_alignment: right
     font_family:
