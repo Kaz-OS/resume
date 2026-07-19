@@ -155,7 +155,7 @@ design:
     font_size:
       body: 10pt
       name: 20pt
-      headline: 12pt
+      headline: 13.5pt
       connections: 9pt
       section_titles: 1.3em
     small_caps:
