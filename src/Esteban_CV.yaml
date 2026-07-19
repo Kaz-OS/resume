@@ -35,7 +35,7 @@ cv:
         summary: Stage de première année de BTS.
         technologies: Astro, TypeScript
         highlights:
-          - Développé site vitrine performant avec Astro et TypeScript (Core Web Vitals optimisés).
+          - Développé site vitrine performant avec Astro et TypeScript.
           - Conçu interface ergonomique et responsives pour maximiser les conversions (appels, devis).
       - company: "[GORON Systèmes](https://goron-systemes.fr)"
         position: Technicien informatique
@@ -54,7 +54,7 @@ cv:
         summary: Deuxième stage de Première.
         highlights:
           - Effectué diagnostics, maintenance préventive et corrective sur postes de travail.
-      - company: "PC Solution 76"
+      - company: "[PC Solution 76](#)"
         position: Développeur Web
         start_date: 2023-01
         end_date: 2023-03
@@ -65,7 +65,7 @@ cv:
         start_date: 2022-05
         end_date: 2022-07
         location: Le Mesnil-Esnard
-        summary: Stage de Seconde
+        summary: Stage de Seconde.
     projets:
       - name: "[Entraînement WorldSkills](https://github.com/Kaz-OS/skill17-training)"
         position: Compétiteur
@@ -94,8 +94,8 @@ cv:
         start_date: 2024
         end_date: 2026
         location: Le Mesnil-Esnard
-        summary: Formation orientée vers le développement d'applications et la gestion de bases de données.
-      - institution: "[Campus La Châtaigneraie](https://la-chataigneraie.org/bts-service-informatiques-organisations-solutions-logicielles-applications-metiers)"
+        summary: Formation en développement d'applications et la gestion de bases de données.
+      - institution: "[Campus La Châtaigneraie](https://la-chataigneraie.org/bac-pro-systemes-numeriques)"
         area: Systèmes Numériques
         degree: BAC. Pro
         start_date: 2021
@@ -121,8 +121,9 @@ cv:
       - label: Soft Skills
         details: Travail en équipe, Résolution de problèmes, Communication, Adaptabilité
     langues:
-      - bullet: Espagnol (A2)
       - bullet: Anglais (B2)
+      - bullet: Espagnol (A2)
+
 design:
   theme: harvard
   page:
